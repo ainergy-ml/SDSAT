@@ -26,5 +26,5 @@ bash start_nucleus.sh
 
 3. View test results
 
-The speed results are stored in `./results`, go check it
+The speed results will be stored in `./results`, go check it
 
