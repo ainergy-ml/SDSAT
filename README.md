@@ -41,3 +41,8 @@ bash start_nucleus.sh ainergy/CodeLlama-SDSAT_L5_7B 0,1,2,3 1.0
 
 The speed test results will be stored in `./results`, go check it
 
+## Model sources
+
+`https://huggingface.co/ainergy/CodeLlama-SDSAT_L5_7B`
+
+`https://huggingface.co/ainergy/CodeLlama-SDSAT_L7_13B`
