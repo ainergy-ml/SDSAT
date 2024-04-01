@@ -56,9 +56,9 @@ The speed test results will be stored in `./results`, go check it
 
 ## Model sources
 
-🤯 `https://huggingface.co/ainergy/CodeLlama-SDSAT_L5_7B`
+🤯 [CodeLlama-SDSAT-L5-7B](https://huggingface.co/ainergy/CodeLlama-SDSAT_L5_7B)
 
-🤯 `https://huggingface.co/ainergy/CodeLlama-SDSAT_L7_13B`
+🤯 [CodeLlama-SDSAT-L7-13B](https://huggingface.co/ainergy/CodeLlama-SDSAT_L7_13B)
 
 
 ## Citation
