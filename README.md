@@ -1,19 +1,18 @@
 # SDSAT
 The official implementation of "SDSAT: Accelerating LLM Inference through Speculative Decoding with Semantic Adaptive Tokens"
 
+📖 [paper](https://arxiv.org/abs/2403.18647)
+
 Including the decoding method of both greedy search and nucleus sampling.
-[paper](https://arxiv.org/abs/2403.18647)
 
 
 ## Introduction
 
 SDSAT is an acceleration scheme for large language models (LLMs) through Speculative Decoding with Semantic Adaptive Tokens (SDSAT). The primary objective of this design is to enhance the LLM model’s ability to generate draft tokens more accurately without compromising the model’s accuracy. The core strategies involve: 
-
 1. Fine-tune the model by incorpo-rating semantic adaptive tokens that possess flexible decoding capabilities without changing its structure, allowing them to generate high-quality draft tokens. 
 2. By employing a training method that does not affect the standard tokens, the model can acquire parallel decoding abilities atop its original framework with minimal training overhead. 
 3. We have designed the ”two-step-draft-then-verify” generation strategies using both greedy search and nucleus sampling. 
-
-Experiments conducted on the CodeLlama-13B and 7B models have yielded speed increases of over \bf{3.5X} and \bf{3.0X}, respectively.
+Experiments conducted on the CodeLlama-13B and 7B models have yielded speed increases of over **3.5X** and **3.0X**, respectively.
 The fine-tuned model and code will be open source.
 
 
@@ -57,9 +56,9 @@ The speed test results will be stored in `./results`, go check it
 
 ## Model sources
 
-`https://huggingface.co/ainergy/CodeLlama-SDSAT_L5_7B`
+🤯 `https://huggingface.co/ainergy/CodeLlama-SDSAT_L5_7B`
 
-`https://huggingface.co/ainergy/CodeLlama-SDSAT_L7_13B`
+🤯 `https://huggingface.co/ainergy/CodeLlama-SDSAT_L7_13B`
 
 
 ## Citation
