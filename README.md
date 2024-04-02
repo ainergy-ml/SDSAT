@@ -1,9 +1,8 @@
 # SDSAT
 The official implementation of "SDSAT: Accelerating LLM Inference through Speculative Decoding with Semantic Adaptive Tokens"
+Including the decoding method of both greedy search and nucleus sampling.
 
 📖 [paper](https://arxiv.org/abs/2403.18647)
-
-Including the decoding method of both greedy search and nucleus sampling.
 
 
 ## Introduction
